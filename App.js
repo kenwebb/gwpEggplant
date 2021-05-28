@@ -1,7 +1,7 @@
 import 'react-native-gesture-handler';
 //import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Platform } from 'react-native';
 import { NavigationContainer, DarkTheme } from '@react-navigation/native';
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 
@@ -83,7 +83,9 @@ const App = (props) => {
             headerTintColor: '#000',
             headerTitleStyle: {
               //fontWeight: 'bold',
-              color: 'black'
+              color: 'green',
+              //fontSize: 20 // default is 20 ? on Android, web
+              fontSize: Platform.OS === 'ios' ? 20 : 20
             },
           }}
         >

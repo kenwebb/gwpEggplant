@@ -11252,6 +11252,7 @@ export function getPlants( filters ) {
   ]
 
   if (filters) {
+    console.log(filters)
     if (Array.isArray(filters)) {
       return processFilters(filters, plants);
     }
@@ -11297,7 +11298,12 @@ const processFilters = ( filtersArr, plants ) => {
 
   // COMMON NAME  Object -> [Object] -> [Object]
   const fcommonname = filters => plants =>
-    filters.commonname ? plants.filter(plant => (plant.name.en_CA === filters.commonname.split(",")[0])) : plants
+    filters.commonname ? plants.filter(plant => {
+      const arr = filters.commonname.split(",")
+      const lang = arr[0] === arr[1] ? "en_CA" : "fr_CA"
+      const index = arr[0] === arr[1] ? 0 : 1
+      return (plant.name[lang] === filters.commonname.split(",")[index])
+    }) : plants
 
   // FAMILY NAME  Object -> [Object] -> [Object]
   const ffamilyname = filters => plants =>

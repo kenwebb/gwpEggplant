@@ -47,7 +47,6 @@ Trifolium pratense,Trifolium repens,Trillium erectum,Trillium grandiflorum,Trill
 Typha latifolia,Urtica dioica,Utricularia vulgaris,Uvularia grandiflora,Uvularia perfoliata,Valeriana officinalis,Verbascum blattaria,Verbascum thapsus,
 Verbena hastata,Veronica officinalis,Viburnum lantanoides,Vicia cracca,Viola canadensis,Viola conspersa,Viola pubescens,Viola renifolia,
 Viola sororia,`.split(',').map(item => item.trim()),
-    //commonname: 'CmName01,CmName02,CmName03'.split(','),
     commonname:
 `Alfalfa,American hog peanut,American spikenard,Arrow-leaved smartweed,Basil thyme,Beechdrops,Bitter wintercress,Bittersweet nightshade,
 Black-eyed Susan,Bladder campion,Bloodroot,Blue vervain,Blue-stemmed goldenrod,Bluebell of Scotland,Bluntleaf waterleaf,Bog aster,

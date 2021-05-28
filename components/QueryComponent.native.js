@@ -102,7 +102,7 @@ const Query = (props) => {
             pitems: ["colour", i18n.t('queryfiltername.0')]
           })}
         >
-          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.0')}</Text>
+          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.0')}   </Text>
           <Text style={[cstyles.bodytext]}>{getSelectedVal(colour[1])} {rightArrow}</Text>
         </TouchableOpacity>
       </View>
@@ -115,7 +115,7 @@ const Query = (props) => {
             pitems: ["leaf", i18n.t('queryfiltername.1')]
           })}
         >
-          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.1')}</Text>
+          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.1')}   </Text>
           <Text style={[cstyles.bodytext]}>{getSelectedVal(leaf[1])} {rightArrow}</Text>
         </TouchableOpacity>
       </View>
@@ -128,7 +128,7 @@ const Query = (props) => {
             pitems: ["arrangement", i18n.t('queryfiltername.2')]
           })}
         >
-          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.2')}</Text>
+          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.2')}   </Text>
           <Text style={[cstyles.bodytext]}>{getSelectedVal(arrangement[1])} {rightArrow}</Text>
         </TouchableOpacity>
       </View>
@@ -141,7 +141,7 @@ const Query = (props) => {
             pitems: ["floweringin", i18n.t('queryfiltername.3')]
           })}
         >
-          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.3')}</Text>
+          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.3')}   </Text>
           <Text style={[cstyles.bodytext]}>{getSelectedVal(floweringin[1])} {rightArrow}</Text>
         </TouchableOpacity>
       </View>
@@ -154,7 +154,7 @@ const Query = (props) => {
             pitems: ["speciesname", i18n.t('queryfiltername.4')]
           })}
         >
-          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.4')}</Text>
+          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.4')}   </Text>
           <Text style={[cstyles.bodytext]}>{getSelectedVal(speciesname[1])} {rightArrow}</Text>
         </TouchableOpacity>
       </View>
@@ -167,7 +167,7 @@ const Query = (props) => {
             pitems: ["commonname", i18n.t('queryfiltername.5')]
           })}
         >
-          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.5')}</Text>
+          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.5')}   </Text>
           <Text style={[cstyles.bodytext]}>{getSelectedVal(commonname[1])} {rightArrow}</Text>
         </TouchableOpacity>
       </View>
@@ -180,7 +180,7 @@ const Query = (props) => {
             pitems: ["familyname", i18n.t('queryfiltername.6')]
           })}
         >
-          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.6')}</Text>
+          <Text style={[styles.textsearch2,cstyles.bodytextgreen]}>{i18n.t('queryfiltername.6')}   </Text>
           <Text style={[cstyles.bodytext]}>{getSelectedVal(familyname[1])} {rightArrow}</Text>
         </TouchableOpacity>
       </View>
