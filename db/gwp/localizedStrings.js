@@ -7,7 +7,7 @@ export function getLocalizedStrings( locale, collection ) {
   const en_CA = {
     gwp: "Gatineau Wildflower Project Dragonfruit",
     welcome: "Hello",
-    screen: "Home,Flower Search,Flowers,Flower Details,About,Contact,Links,Copyright,Query Picker".split(','),
+    screen: "Home,Search,Results,Details,About,Contact,Links,Copyright,Query Picker".split(','),
     homebutton: 'Query,About,Contact,Links,Copyright'.split(','),
     all: "Any",
     colour: "white,yellow,red,purple,green,brown,orange,blue,pink".split(','),
@@ -112,7 +112,7 @@ Typhaceae,Urticaceae,Verbenaceae,Violaceae`.split(',').map(item => item.trim()),
   const fr_CA = {
     gwp: "Projet de fleurs sauvages de Gatineau",
     welcome: "Bonjour",
-    screen: "Home,Recherche de fleurs,Fleurs,Détails,À propos,Contact,Liens,Copyright,Query Picker".split(','),
+    screen: "Home,Recherche,Resultats,Détails,À propos,Contact,Liens,Copyright,Query Picker".split(','),
     homebutton: 'Requête,À propos,Contact,Liens,Copyright'.split(','),
     all: "AnyFR",
     colour: "blanc,jaune,rouge,violet,vert,brun,orange,bleu,rose".split(","),
