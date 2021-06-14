@@ -7,11 +7,9 @@ import {Colors} from '../styles'
 const About = (props) => {
   return (
     <View style={styles.container}>
-      <Text style={cstyles.bodytext}>{i18n.t('abouttitle')}</Text>
       <Text style={cstyles.bodytext}>{i18n.t('abouttext.0')}</Text>
       <Text style={cstyles.bodytext}>{i18n.t('abouttext.1')}</Text>
       <Text style={cstyles.bodytext}>{i18n.t('abouttext.2')}</Text>
-      <Text style={cstyles.bodytext}>{i18n.t('abouttext.3')}</Text>
     </View>
   );
 }
@@ -19,9 +17,9 @@ const About = (props) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
+    //alignItems: 'center',
     justifyContent: 'flex-start',
-    padding: 25,
+    padding: 10,
     backgroundColor: Colors.backgroundColors.white, //'white',
   },
 });
