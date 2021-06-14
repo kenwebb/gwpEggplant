@@ -83,7 +83,7 @@ export default class Home extends Component {
           style={styles.button}
           onPress={() => this.props.navigation.navigate('Query')}>
           <Image
-            source={require('../assets/gwp/GWP_WebPage_HomePage.png')}
+            source={languageSelected === 'fr' ? require('../assets/gwp/GWP_WebPage_HomePageFR.png') : require('../assets/gwp/GWP_WebPage_HomePage.png')}
             style = {styles.image}
             //style = {{flex: 1, height: 450, width: 315}}
             //style={styles.plantimage}
