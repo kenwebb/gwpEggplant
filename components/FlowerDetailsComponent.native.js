@@ -8,9 +8,9 @@ import i18n from 'i18n-js';
 const FlowerDetails = (props) => {
 
   const Plant = props.route.params.plant; // the entire JSON for one plant
-  console.log(Plant);
+  //console.log(Plant);
   const language = i18n.locale === 'fr' ? 'fr_CA' : 'en_CA'; // en-CA fr
-  console.log(i18n.locale, language) // en_CA fr_CA
+  //console.log(i18n.locale, language) // en_CA fr_CA
 
   /**
    * Convert a Day-of-the-year to a month name
@@ -49,9 +49,9 @@ const FlowerDetails = (props) => {
   }
 
   const en2other = (enarr, otherarr, enstr) => otherarr[enarr.indexOf(enstr)]
-  console.log(i18n.t('colour', {locale: "en"}))
-  console.log(i18n.t('colour'))
-  console.log(en2other(i18n.t('colour', {locale: "en"}), i18n.t('colour'), Plant.colour))
+  //console.log(i18n.t('colour', {locale: "en"}))
+  //console.log(i18n.t('colour'))
+  //console.log(en2other(i18n.t('colour', {locale: "en"}), i18n.t('colour'), Plant.colour))
 
   const calcNumPhotos = photos => photos.reduce((acc, curr) => curr.photo_id?.length > 0 ? acc += 1 : acc, 0)
 
@@ -74,12 +74,12 @@ const FlowerDetails = (props) => {
       <View style={styles.containerdetails}>
 
         <View style={styles.detailview}>
-          <Text style={cstyles.bodytext}>{i18n.t('flowerdetailslabels.0')}</Text>
+          <Text style={cstyles.bodytext}>{i18n.t('flowerdetailslabels.0')}   </Text>
           <Text style={cstyles.bodytext}>{Plant.name[language]}</Text>
         </View>
 
         <View style={styles.detailview}>
-          <Text style={cstyles.bodytext}>{i18n.t('flowerdetailslabels.1')}</Text>
+          <Text style={cstyles.bodytext}>{i18n.t('flowerdetailslabels.1')}   </Text>
           <Text style={cstyles.bodytext}>{Plant.family[language]}</Text>
         </View>
 
@@ -104,7 +104,7 @@ const FlowerDetails = (props) => {
         </View>
 
         <View style={styles.detailview}>
-          <Text style={cstyles.bodytext}>{i18n.t('flowerdetailslabels.6')}</Text>
+          <Text style={cstyles.bodytext}>{i18n.t('flowerdetailslabels.6')}   </Text>
           <Text style={cstyles.bodytext}>{dayOfYear2monthName(Plant.flowering.start, true, language)}–{dayOfYear2monthName(Plant.flowering.end, false, language)}</Text>
         </View>
 
