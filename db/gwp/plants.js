@@ -413,14 +413,15 @@ export function getPlants( filters ) {
          "date": {"$date": "2016-05-25"}
        },
        {
-         "photo_id": "",
-         "trailhead": "",
-         "trail": "999",
-         "date": {"$date": ""}
+         "photo_id": "P5280341",
+         imageLink: require('../../assets/gwp/images/P5280341.jpg'),
+         "trailhead": "Blanchet (P13)",
+         "trail": "62",
+         "date": {"$date": "2015-05-28"}
        }
      ],
      "notes": {
-       "en_CA": "en notes",
+       "en_CA": "2nd photo added on 2021-06-10",
        "fr_CA": "fr notes"
      }
    },
@@ -2052,14 +2053,15 @@ export function getPlants( filters ) {
          "date": {"$date": "2015-07-08"}
        },
        {
-         "photo_id": "",
-         "trailhead": "",
-         "trail": "999",
-         "date": {"$date": ""}
+         "photo_id": "P6300331",
+         imageLink: require('../../assets/gwp/images/P6300331.jpg'),
+         "trailhead": "Vallée Meech (P16)",
+         "trail": "50",
+         "date": {"$date": "2020-06-30"}
        }
      ],
      "notes": {
-       "en_CA": "en notes",
+       "en_CA": "2nd photo added on 2021-06-10",
        "fr_CA": "fr notes"
      }
    },
@@ -2565,14 +2567,15 @@ export function getPlants( filters ) {
          "date": {"$date": "2015-08-01"}
        },
        {
-         "photo_id": "",
-         "trailhead": "",
-         "trail": "999",
-         "date": {"$date": ""}
+         "photo_id": "P8060420",
+         imageLink: require('../../assets/gwp/images/P8060420.jpg'),
+         "trailhead": "Kingsmere (P7)",
+         "trail": "1",
+         "date": {"$date": "2020-08-06"}
        }
      ],
      "notes": {
-       "en_CA": "en notes",
+       "en_CA": "2nd photo added on 2021-06-10",
        "fr_CA": "fr notes"
      }
    },
@@ -3078,14 +3081,15 @@ export function getPlants( filters ) {
          "date": {"$date": "2016-08-22"}
        },
        {
-         "photo_id": "",
-         "trailhead": "",
+         "photo_id": "P9210374",
+         imageLink: require('../../assets/gwp/images/P9210374.jpg'),
+         "trailhead": "Lac des Fées",
          "trail": "999",
-         "date": {"$date": ""}
+         "date": {"$date": "2016-09-21"}
        }
      ],
      "notes": {
-       "en_CA": "en notes",
+       "en_CA": "2nd photo added on 2021-06-10",
        "fr_CA": "fr notes"
      }
    },
@@ -3406,15 +3410,15 @@ export function getPlants( filters ) {
          "date": {"$date": "2015-06-17"}
        },
        {
-         "photo_id": "P6200388",
-         imageLink: require('../../assets/gwp/images/P6200388.jpg'),
-         "trailhead": "Chelsea",
-         "trail": "999",
-         "date": {"$date": "2018-06-20"}
+         "photo_id": "P6170362",
+         imageLink: require('../../assets/gwp/images/P6170362.jpg'),
+         "trailhead": "Kingsmere (P7)",
+         "trail": "31",
+         "date": {"$date": "2015-06-17"}
        }
      ],
      "notes": {
-       "en_CA": "en notes",
+       "en_CA": "2nd photo revised on 2021-06-10",
        "fr_CA": "fr notes"
      }
    },
@@ -3827,14 +3831,15 @@ export function getPlants( filters ) {
          "date": {"$date": "2015-08-01"}
        },
        {
-         "photo_id": "",
-         "trailhead": "",
+         "photo_id": "P9080479",
+         imageLink: require('../../assets/gwp/images/P9080479.jpg'),
+         "trailhead": "Lac des Fées",
          "trail": "999",
-         "date": {"$date": ""}
+         "date": {"$date": "2020-09-08"}
        }
      ],
      "notes": {
-       "en_CA": "en notes",
+       "en_CA": "2nd photo added on 2021-06-10",
        "fr_CA": "fr notes"
      }
    },
@@ -3862,7 +3867,7 @@ export function getPlants( filters ) {
      "arrangement": "alternate",
      "flowering": {
        "start": 243,
-       "end": -1
+       "end": 303
      },
      "photos": [
        {
@@ -5126,14 +5131,15 @@ export function getPlants( filters ) {
          "date": {"$date": "2016-08-04"}
        },
        {
-         "photo_id": "",
-         "trailhead": "",
-         "trail": "999",
-         "date": {"$date": ""}
+         "photo_id": "P7240382",
+         imageLink: require('../../assets/gwp/images/P7240382.jpg'),
+         "trailhead": "Lac Philippe (P19)",
+         "trail": "55",
+         "date": {"$date": "2019-07-24"}
        }
      ],
      "notes": {
-       "en_CA": "en notes",
+       "en_CA": "2nd photo added on 2021-06-10",
        "fr_CA": "fr notes"
      }
    },
@@ -7756,12 +7762,12 @@ export function getPlants( filters ) {
        "fr_CA": "Eudicotylédone"
      },
      "family": {
-       "en_CA": "Portulacaceae (is this correct?)",
-       "fr_CA": "Portulacaceae (need translation)"
+       "en_CA": "Montiaceae",
+       "fr_CA": "Montiacées"
      },
      "sub_family": {
-       "en_CA": "montia family (is this correct?)",
-       "fr_CA": "montia family (is this correct?)"
+       "en_CA": "montia family",
+       "fr_CA": "montia family"
      },
      "species": "Claytonia caroliniana",
      "name": {
@@ -11248,11 +11254,103 @@ export function getPlants( filters ) {
        "en_CA": "en notes",
        "fr_CA": "fr notes"
      }
+   },
+   {
+     "clazz": {
+       "en_CA": "Eudicot",
+       "fr_CA": "Eudicotylédone"
+     },
+     "family": {
+       "en_CA": "Orobanchaceae",
+       "fr_CA": "Orobanchacées "
+     },
+     "sub_family": {
+       "en_CA": "broomrape family",
+       "fr_CA": "broomrape family"
+     },
+     "species": "Melampyrum lineare",
+     "name": {
+       "en_CA": "American cow-wheat",
+       "fr_CA": "Mélampyre linéaire"
+     },
+     "native": true,
+     "colour": "white",
+     "leaf": "simple",
+     "arrangement": "opposite",
+     "flowering": {
+       "start": 181,
+       "end": 272
+     },
+     "photos": [
+       {
+         "photo_id": "P8050379",
+         imageLink: require('../../assets/gwp/images/P8050379.jpg'),
+         "trailhead": "Luskville Falls (P12)",
+         "trail": "1",
+         "date": {"$date": "2019-08-05"}
+       },
+       {
+         "photo_id": "",
+         "trailhead": "",
+         "trail": "999",
+         "date": {"$date": ""}
+       }
+     ],
+     "notes": {
+       "en_CA": "Record added 2021-06-10",
+       "fr_CA": "fr notes"
+     }
+   },
+   {
+     "clazz": {
+       "en_CA": "Eudicot",
+       "fr_CA": "Eudicotylédone"
+     },
+     "family": {
+       "en_CA": "Ranunculaceae",
+       "fr_CA": "Renonculacées"
+     },
+     "sub_family": {
+       "en_CA": "buttercup family",
+       "fr_CA": "violet family"
+     },
+     "species": "Ranunculus recurvatus",
+     "name": {
+       "en_CA": "Hooked buttercup",
+       "fr_CA": "Renoncule à bec recourbé"
+     },
+     "native": true,
+     "colour": "yellow",
+     "leaf": "simple",
+     "arrangement": "alternate",
+     "flowering": {
+       "start": 90,
+       "end": 180
+     },
+     "photos": [
+       {
+         "photo_id": "P6100376",
+         imageLink: require('../../assets/gwp/images/P6100376.jpg'),
+         "trailhead": "Étienne Brûlé",
+         "trail": "3",
+         "date": {"$date": "2016-06-10"}
+       },
+       {
+         "photo_id": "",
+         "trailhead": "",
+         "trail": "999",
+         "date": {"$date": ""}
+       }
+     ],
+     "notes": {
+       "en_CA": "Record added 2021-06-10",
+       "fr_CA": "fr notes"
+     }
    }
   ]
 
   if (filters) {
-    console.log(filters)
+    //console.log(filters)
     if (Array.isArray(filters)) {
       return processFilters(filters, plants);
     }
@@ -11351,13 +11449,13 @@ const processFilters = ( filtersArr, plants ) => {
 
   // TRACE
   const ftrace = plants => {
-    console.log(plants);
+    //console.log(plants);
     return plants;
   }
 
   // TRACE
   const ftracelen = plants => {
-    console.log(plants.length);
+    //console.log(plants.length);
     return plants;
   }
 
