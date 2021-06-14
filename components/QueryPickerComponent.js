@@ -2,6 +2,7 @@ import React, { Component, useState, useEffect } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import i18n from 'i18n-js';
 import {cstyles} from '../styles/styles';
+import {Buttons, Colors} from '../styles'
 
 const QueryPicker = (props) => {
 
@@ -22,12 +23,15 @@ const QueryPicker = (props) => {
       key={namesEN[i]}
       onPress={() => {funk([namesEN[i] === allEN ? "*" : namesEN[i], item])}}
     >
-      <Text style={styles.textStyle3}>{item}</Text>
+      <Text style={[styles.textStyle3, cstyles.bodytextgreen]}>{item}</Text>
     </TouchableOpacity>)
   }
 
   return (
     <View style={styles.container}>
+      <View style={styles.containertop}>
+        <Text style={{fontSize: 20}}> </Text>
+      </View>
       <View style={styles.centeredView}>
         <View style={styles.modalView}>
           <ScrollView>
@@ -44,6 +48,18 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: 'white'
+  },
+  containertop: {
+    flexDirection: "row",
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    margin: 5,
+    paddingTop: 10,
+    paddingBottom: 10,
+    paddingLeft: 16,
+    paddingRight: 10,
+    backgroundColor: Colors.backgroundColors.lightGreen,
+    ...Buttons.rounded,
   },
   centeredView: {
     flex: 1,
@@ -64,7 +80,7 @@ const styles = StyleSheet.create({
   },
   textStyle3: {
     margin: 10,
-    fontSize: 18,
+    //fontSize: 18,
   },
 });
 
