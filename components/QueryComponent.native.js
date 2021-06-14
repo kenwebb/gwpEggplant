@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     alignItems: 'baseline',
     marginLeft: 20,
     paddingRight: 15,
-    borderBottomWidth: 1,
+    borderBottomWidth: 0.75,
     borderColor: Colors.borderColors.lightGrey,
   },
   textsearch1b: {

@@ -54,12 +54,14 @@ export default class Flowers extends Component {
             horizontal={true}
           />
         </View>
-        <View>
+        <View styles={{flex: 1}}>
           <FlatList
+            styles={{flex: 1}}
             data={this.plants}
             renderItem={this.renderPlant}
             keyExtractor={item => item.species}
             numColumns={1}
+            contentContainerStyle={{ paddingBottom: 40 }}
           />
 
         </View>

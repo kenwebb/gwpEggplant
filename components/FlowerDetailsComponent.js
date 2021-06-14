@@ -58,7 +58,7 @@ class FlowerDetails extends Component {
     super(props);
 
     Plant = props.route.params.plant; // the entire JSON for one plant
-    console.log(Plant);
+    //console.log(Plant);
 
     this.state = {
       plant: props.route.params.plant,
