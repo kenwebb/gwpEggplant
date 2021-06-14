@@ -78,7 +78,10 @@ const App = (props) => {
         <Stack.Navigator initialRouteName="Home"
           screenOptions={{
             headerStyle: {
-              backgroundColor: 'white' //'#3A5F0B',
+              backgroundColor: 'white', //'#3A5F0B',
+              // https://stackoverflow.com/questions/51181965/react-navigation-header-has-a-faint-line
+              elevation: 0.75, // remove shadow on Android
+              //shadowOpacity: 0, // remove shadow on iOS, if needed
             },
             headerTintColor: '#000',
             headerTitleStyle: {
