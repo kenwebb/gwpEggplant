@@ -61,7 +61,7 @@ const FlowerDetails = (props) => {
       <View style={styles.containerphotos}>
         <Image
           source={
-            Plant.photos[0].imageLink
+            calcNumPhotos(Plant.photos) >= 2 ? Plant.photos[1].imageLink : Plant.photos[0].imageLink
           }
           style={styles.plantimage}
         />
