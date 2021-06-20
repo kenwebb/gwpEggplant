@@ -29,6 +29,7 @@ export default class Flowers extends Component {
               item.photos[0].imageLink
             }
             style={styles.plantimage}
+            resizeMode='contain' // enum('DEFAULTcover', 'contain', 'NOstretch', 'NOrepeat', 'center')
           />
           <Text style={styles.imagetext}>{item.species}</Text>
         </TouchableOpacity>
