@@ -4273,7 +4273,7 @@ export function getPlants( filters ) {
        "en_CA": "aster family",
        "fr_CA": "aster family"
      },
-     "species": "Symphyotrichum novae-angliae Andrea made me do this HAH",
+     "species": "Symphyotrichum novae-angliae",
      "name": {
        "en_CA": "New England aster",
        "fr_CA": "Aster de Nouvelle-Angleterre"
