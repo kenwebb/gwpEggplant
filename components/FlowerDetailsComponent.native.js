@@ -64,6 +64,7 @@ const FlowerDetails = (props) => {
             calcNumPhotos(Plant.photos) >= 2 ? Plant.photos[1].imageLink : Plant.photos[0].imageLink
           }
           style={styles.plantimage}
+          resizeMode='contain' // enum('DEFAULTcover', 'BESTcontain', 'NOstretch', 'NOrepeat', 'GOODcenter')
         />
       </View>
 
