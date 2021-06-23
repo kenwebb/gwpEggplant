@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
 import {cstyles} from '../styles/styles';
+import PhotoDetails from './PhotoDetailsComponent'
 
 // expo Localization
 import i18n from 'i18n-js';
@@ -58,7 +59,7 @@ const FlowerDetails = (props) => {
   return (
     <View style={styles.container}>
 
-      <View style={styles.containerphotos}>
+      {/*<View style={styles.containerphotos}>
         <Image
           source={
             calcNumPhotos(Plant.photos) >= 2 ? Plant.photos[1].imageLink : Plant.photos[0].imageLink
@@ -66,7 +67,8 @@ const FlowerDetails = (props) => {
           style={styles.plantimage}
           resizeMode='contain' // enum('DEFAULTcover', 'BESTcontain', 'NOstretch', 'NOrepeat', 'GOODcenter')
         />
-      </View>
+      </View>*/}
+      <PhotoDetails photos={props.route.params.plant.photos} />
 
       <View style={styles.containerlabel}>
         <Text style={cstyles.imagelabel}>{Plant.species}</Text>
