@@ -104,8 +104,10 @@ const styles = StyleSheet.create({
     //overflow: 'scroll'
   },
   plantimage: {
-    width: 500, //'100%',
-    height: 275
+    width: 350, //400, //500, //'100%',
+    height: 275,
+    marginHorizontal: 6,
+    padding: 5
   },
 });
 
