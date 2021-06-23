@@ -7,7 +7,7 @@ import {Colors} from '../styles'
 const Contact = (props) => {
   return (
     <View style={styles.container}>
-      <Text style={cstyles.bodytext}>You may contact us by whispering "abracadabra" into the flower of any plant in this app, that you find while walking along the trails of Gatineau Park.</Text>
+      <Text style={cstyles.bodytext}>Contact information will go here.</Text>
     </View>
   );
 }
