@@ -13,7 +13,7 @@ import FlowerDetailsScreen from './components/FlowerDetailsComponent'
 import AboutScreen from './components/AboutComponent'
 import ContactScreen from './components/ContactComponent'
 import LinksScreen from './components/LinksComponent'
-import CopyrightScreen from './components/CopyrightComponent'
+//import CopyrightScreen from './components/CopyrightComponent'
 
 // picker components(s)
 import QueryPickerScreen from './components/QueryPickerComponent'
@@ -102,7 +102,7 @@ const App = (props) => {
           <Stack.Screen name="About" component={AboutScreen} options={{ title: i18n.t('screen.4') }} />
           <Stack.Screen name="Contact" component={ContactScreen} options={{ title: i18n.t('screen.5') }} />
           <Stack.Screen name="Links" component={LinksScreen} options={{ title: i18n.t('screen.6') }} />
-          <Stack.Screen name="Copyright" component={CopyrightScreen} options={{ title: i18n.t('screen.7') }} />
+          {/*<Stack.Screen name="Copyright" component={CopyrightScreen} options={{ title: i18n.t('screen.7') }} />*/}
 
           {/*<Stack.Screen name="QueryPicker" component={QueryPickerScreen} options={{
             //title: i18n.t('screen.8'),
