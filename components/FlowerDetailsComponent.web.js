@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, Image, FlatList } from 'react-native';
+import { StyleSheet, View, Text, Image } from 'react-native';
 import {cstyles} from '../styles/styles';
 import PhotoDetails from './PhotoDetailsComponent'
 
@@ -10,8 +10,6 @@ const FlowerDetails = (props) => {
 
   const Plant = props.route.params.plant; // the entire JSON for one plant
   //console.log(Plant);
-  //console.log(Plant.photos[0].imageLink);
-  //Plant.photos.length > 1 ? console.log(Plant.photos[1].imageLink) : console.log("only one photo");
   const language = i18n.locale === 'fr' ? 'fr_CA' : 'en_CA'; // en-CA fr
   //console.log(i18n.locale, language) // en_CA fr_CA
 
@@ -124,11 +122,6 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     backgroundColor: 'white',
   },
-  /*containerphotos: {
-    flexDirection: "row",
-    justifyContent: 'center',
-    alignItems: 'center',
-  },*/
   containerlabel: {
     flexDirection: "column",
     justifyContent: "flex-start"
@@ -145,15 +138,6 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     paddingRight: 15,
   },
-  /*plantimage: {
-    width: '100%',
-    height: 275
-  },*/
-  /*flatlistfltr: {
-     flexDirection: 'row',
-     flexWrap: 'wrap',
-     overflow: 'scroll'
-  },*/
 });
 
 export default FlowerDetails;

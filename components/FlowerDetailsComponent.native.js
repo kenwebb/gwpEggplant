@@ -59,15 +59,6 @@ const FlowerDetails = (props) => {
   return (
     <View style={styles.container}>
 
-      {/*<View style={styles.containerphotos}>
-        <Image
-          source={
-            calcNumPhotos(Plant.photos) >= 2 ? Plant.photos[1].imageLink : Plant.photos[0].imageLink
-          }
-          style={styles.plantimage}
-          resizeMode='contain' // enum('DEFAULTcover', 'BESTcontain', 'NOstretch', 'NOrepeat', 'GOODcenter')
-        />
-      </View>*/}
       <PhotoDetails photos={props.route.params.plant.photos} />
 
       <View style={styles.containerlabel}>
@@ -131,11 +122,6 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     backgroundColor: 'white',
   },
-  containerphotos: {
-    flexDirection: "row",
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
   containerlabel: {
     flexDirection: "column",
     justifyContent: "flex-start"
@@ -151,10 +137,6 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingLeft: 15,
     paddingRight: 15,
-  },
-  plantimage: {
-    width: '100%',
-    height: 275
   },
 });
 
