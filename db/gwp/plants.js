@@ -136,6 +136,13 @@ export function getPlants( filters ) {
          "trailhead": "O'Brien (P11)",
          "trail": "36",
          "date": {"$date": "2020-07-13"}
+       },
+       {
+         "photo_id": "P7210394",
+         imageLink: require('../../assets/gwp/images/P7210394.jpg'),
+         "trailhead": "Lac Mulvihill",
+         "trail": "999",
+         "date": {"$date": "2020-07-21"}
        }
      ],
      "notes": {
@@ -841,6 +848,13 @@ export function getPlants( filters ) {
          "trailhead": "Luskville Falls",
          "trail": "999",
          "date": {"$date": "2018-05-14"}
+       },
+       {
+         "photo_id": "P5240371",
+         imageLink: require('../../assets/gwp/images/P5240371.jpg'),
+         "trailhead": "Lauriault",
+         "trail": "999",
+         "date": {"$date": "2017-05-24"}
        }
      ],
      "notes": {
@@ -1076,6 +1090,13 @@ export function getPlants( filters ) {
          "trailhead": "Keogan",
          "trail": "1",
          "date": {"$date": "2019-07-31"}
+       },
+       {
+         "photo_id": "P7310395",
+         imageLink: require('../../assets/gwp/images/P7310395.jpg'),
+         "trailhead": "Keogan",
+         "trail": "14",
+         "date": {"$date": "2019-07-31"}
        }
      ],
      "notes": {
@@ -1193,7 +1214,7 @@ export function getPlants( filters ) {
      "species": "Pontederia cordata",
      "name": {
        "en_CA": "Pickerelweed",
-       "fr_CA": "Pontédérie à feuilles en cur"
+       "fr_CA": "Pontédérie cordée"
      },
      "native": true,
      "colour": "blue",
@@ -1334,7 +1355,7 @@ export function getPlants( filters ) {
      "species": "Polygonatum biflorum",
      "name": {
        "en_CA": "Giant Solomon's seal",
-       "fr_CA": "Sceau-de-Salomon biflora"
+       "fr_CA": "Sceau-de-Salomon à deux fleurs"
      },
      "native": true,
      "colour": "green",
@@ -1427,7 +1448,7 @@ export function getPlants( filters ) {
      "species": "Sparganium emersum",
      "name": {
        "en_CA": "Green-fruited burreed",
-       "fr_CA": "Rubanier émergé"
+       "fr_CA": "Rubanier à fruits verts"
      },
      "native": false,
      "colour": "white",
@@ -1614,7 +1635,7 @@ export function getPlants( filters ) {
      "species": "Viburnum lantanoides",
      "name": {
        "en_CA": "Hobblebush",
-       "fr_CA": "Viorne bois doriginal"
+       "fr_CA": "Viorne bois d’orignal"
      },
      "native": true,
      "colour": "white",
@@ -2406,7 +2427,7 @@ export function getPlants( filters ) {
        "en_CA": "aster family",
        "fr_CA": "aster family"
      },
-     "species": "Ambrosia artemisiiafolia",
+     "species": "Ambrosia artemisiifolia",
      "name": {
        "en_CA": "Common ragweed",
        "fr_CA": "Petite herbe à poux"
@@ -2548,7 +2569,7 @@ export function getPlants( filters ) {
      "species": "Arctium lappa",
      "name": {
        "en_CA": "Great burdock",
-       "fr_CA": "Bardane majeure"
+       "fr_CA": "Grande bardane"
      },
      "native": false,
      "colour": "purple",
@@ -2686,7 +2707,7 @@ export function getPlants( filters ) {
        "en_CA": "aster family",
        "fr_CA": "aster family"
      },
-     "species": "Chicorium intybus",
+     "species": "Cichorium intybus",
      "name": {
        "en_CA": "Wild chicory",
        "fr_CA": "Chicorée sauvage"
@@ -3437,7 +3458,7 @@ export function getPlants( filters ) {
      },
      "species": "Inula helenium",
      "name": {
-       "en_CA": "Elecampane",
+       "en_CA": "Horseheal",
        "fr_CA": "Inule aunée"
      },
      "native": false,
@@ -3672,7 +3693,7 @@ export function getPlants( filters ) {
      "species": "Rudbeckia hirta",
      "name": {
        "en_CA": "Black-eyed Susan",
-       "fr_CA": "Rudbeckie tardive"
+       "fr_CA": "Rudbeckie hérissée"
      },
      "native": true,
      "colour": "yellow",
@@ -4997,6 +5018,13 @@ export function getPlants( filters ) {
          "trailhead": "Luskville Falls",
          "trail": "999",
          "date": {"$date": "2018-05-14"}
+       },
+       {
+         "photo_id": "P5240399",
+         imageLink: require('../../assets/gwp/images/P5240399.jpg'),
+         "trailhead": "Lauriault",
+         "trail": "999",
+         "date": {"$date": "2017-05-24"}
        }
      ],
      "notes": {
@@ -5063,7 +5091,7 @@ export function getPlants( filters ) {
        "en_CA": "mustard family",
        "fr_CA": "mustard family"
      },
-     "species": "Synapis arvensis",
+     "species": "Sinapis arvensis",
      "name": {
        "en_CA": "Corn mustard",
        "fr_CA": "Moutarde des champs"
@@ -5648,6 +5676,13 @@ export function getPlants( filters ) {
          "trailhead": "Étienne Brûlé",
          "trail": "3",
          "date": {"$date": "2018-08-31"}
+       },
+       {
+         "photo_id": "P6240369",
+         imageLink: require('../../assets/gwp/images/P6240369.jpg'),
+         "trailhead": "Étienne Brûlé",
+         "trail": "3",
+         "date": {"$date": "2016-06-24"}
        }
      ],
      "notes": {
@@ -5901,7 +5936,7 @@ export function getPlants( filters ) {
        "en_CA": "dogwood family",
        "fr_CA": "dogwood family"
      },
-     "species": "Chamaepericlymenum canadense",
+     "species": "Cornus canadensis",
      "name": {
        "en_CA": "Bunchberry",
        "fr_CA": "Quatre-temps"
@@ -6068,6 +6103,13 @@ export function getPlants( filters ) {
          "trailhead": "Luskville Falls",
          "trail": "1",
          "date": {"$date": "2019-08-05"}
+       },
+       {
+         "photo_id": "P5070377",
+         imageLink: require('../../assets/gwp/images/P5070377.jpg'),
+         "trailhead": "King Mountain",
+         "trail": "999",
+         "date": {"$date": "2018-05-07"}
        }
      ],
      "notes": {
@@ -6415,7 +6457,7 @@ export function getPlants( filters ) {
      },
      "species": "Lotus corniculatus",
      "name": {
-       "en_CA": "Garden bird's-foot-trefoil",
+       "en_CA": "Garden bird's-foot trefoil",
        "fr_CA": "Lotier corniculé"
      },
      "native": false,
@@ -7022,7 +7064,7 @@ export function getPlants( filters ) {
        "en_CA": "St. Johns-wort family",
        "fr_CA": "St. Johns-wort family"
      },
-     "species": "Triadenum fraseri",
+     "species": "Hypericum fraseri",
      "name": {
        "en_CA": "Fraser's St. John's-wort",
        "fr_CA": "Millepertuis de Fraser"
@@ -7119,7 +7161,7 @@ export function getPlants( filters ) {
      "species": "Clinopodium vulgare",
      "name": {
        "en_CA": "Wild basil",
-       "fr_CA": "Clinopode commun"
+       "fr_CA": "Sarriette vulgaire"
      },
      "native": true,
      "colour": "pink",
@@ -7423,6 +7465,13 @@ export function getPlants( filters ) {
          "trailhead": "Mont-King",
          "trail": "999",
          "date": {"$date": "2018-06-20"}
+       },
+       {
+         "photo_id": "P7060409",
+         imageLink: require('../../assets/gwp/images/P7060409.jpg'),
+         "trailhead": "Relais Plein Air (P2)",
+         "trail": "5",
+         "date": {"$date": "2018-07-06"}
        }
      ],
      "notes": {
@@ -7446,7 +7495,7 @@ export function getPlants( filters ) {
      "species": "Scutellaria galericulata",
      "name": {
        "en_CA": "Marsh skullcap",
-       "fr_CA": "Scutellaire à feuilles dépilobe"
+       "fr_CA": "Scutellaire toque"
      },
      "native": true,
      "colour": "purple",
@@ -7470,6 +7519,13 @@ export function getPlants( filters ) {
          "trailhead": "Fortune (P10)",
          "trail": "9",
          "date": {"$date": "2015-08-21"}
+       },
+       {
+         "photo_id": "P7130348",
+         imageLink: require('../../assets/gwp/images/P7130348.jpg'),
+         "trailhead": "O'Brien (P11)",
+         "trail": "36",
+         "date": {"$date": "2020-07-13"}
        }
      ],
      "notes": {
@@ -7772,7 +7828,7 @@ export function getPlants( filters ) {
      "species": "Claytonia caroliniana",
      "name": {
        "en_CA": "Carolina spring beauty",
-       "fr_CA": "Claytonie feuille-large"
+       "fr_CA": "Claytonie de Caroline"
      },
      "native": true,
      "colour": "pink",
@@ -8471,7 +8527,7 @@ export function getPlants( filters ) {
      "species": "Dicentra cucullaria",
      "name": {
        "en_CA": "Dutchman's breeches",
-       "fr_CA": "Dicentre capuchon-jaune"
+       "fr_CA": "Dicentre à capuchon"
      },
      "native": true,
      "colour": "white",
@@ -9171,7 +9227,7 @@ export function getPlants( filters ) {
        "en_CA": "primrose family",
        "fr_CA": "primrose family"
      },
-     "species": "Trientalis borealis",
+     "species": "Lysimachia borealis",
      "name": {
        "en_CA": "Northern starflower",
        "fr_CA": "Trientale boréale"
@@ -9221,7 +9277,7 @@ export function getPlants( filters ) {
      "species": "Actaea pachypoda",
      "name": {
        "en_CA": "White baneberry",
-       "fr_CA": "Actée blanche"
+       "fr_CA": "Actée à gros pédicelles"
      },
      "native": true,
      "colour": "white",
@@ -10018,7 +10074,7 @@ export function getPlants( filters ) {
        "fr_CA": "Benoîte du Canada"
      },
      "native": true,
-     "colour": "yellow",
+     "colour": "white",
      "leaf": "compound",
      "arrangement": "alternate",
      "flowering": {
@@ -10153,7 +10209,7 @@ export function getPlants( filters ) {
      },
      "species": "Potentilla norvegica",
      "name": {
-       "en_CA": "Norwegian cinquefoil",
+       "en_CA": "Rough cinquefoil",
        "fr_CA": "Potentille de Norvège"
      },
      "native": true,
@@ -10597,6 +10653,13 @@ export function getPlants( filters ) {
          "trailhead": "Mont-King",
          "trail": "999",
          "date": {"$date": "2018-05-07"}
+       },
+       {
+         "photo_id": "P5150371",
+         imageLink: require('../../assets/gwp/images/P5150371.jpg'),
+         "trailhead": "Meech (P12)",
+         "trail": "24",
+         "date": {"$date": "2019-05-15"}
        }
      ],
      "notes": {
@@ -11155,6 +11218,13 @@ export function getPlants( filters ) {
          "trailhead": "Lauriault",
          "trail": "999",
          "date": {"$date": "2017-05-24"}
+       },
+       {
+         "photo_id": "P5140368",
+         imageLink: require('../../assets/gwp/images/P5140368.jpg'),
+         "trailhead": "Luskville Falls",
+         "trail": "999",
+         "date": {"$date": "2018-05-14"}
        }
      ],
      "notes": {
@@ -11178,7 +11248,7 @@ export function getPlants( filters ) {
      "species": "Viola renifolia",
      "name": {
        "en_CA": "Kidney-leaved violet",
-       "fr_CA": "Violette trousse-dents"
+       "fr_CA": "Violette réniforme"
      },
      "native": true,
      "colour": "white",
