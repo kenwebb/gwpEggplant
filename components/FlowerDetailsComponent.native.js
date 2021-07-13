@@ -7,8 +7,8 @@ import PhotoDetails from './PhotoDetailsComponent'
 import i18n from 'i18n-js';
 
 const FlowerDetails = (props) => {
-  console.log("FlowerDetails props:");
-  console.log(props); // navigation route.params.plant
+  //console.log("FlowerDetails props:");
+  //console.log(props); // navigation route.params.plant
 
   const Plant = props.route.params.plant; // the entire JSON for one plant
   //console.log(Plant);

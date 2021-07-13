@@ -11,21 +11,24 @@ const PhotoZoomPan = (props) => {
 
   return (
     <View style={styles.container}>
-      <ReactNativeZoomableView
-       maxZoom={2.5}
-       minZoom={0.5}
-       zoomStep={0.5}
-       initialZoom={1.0}
-       bindToBorders={true}
-      >
-        <Image
-          source={
-            item.imageLink
-          }
-          style={styles.plantimageZoom}
-          resizeMode='contain' // enum('DEFAULTcover', 'BESTcontain', 'NOstretch', 'NOrepeat', 'GOODcenter')
-        />
-      </ReactNativeZoomableView>
+      <View style={styles.plantimageZoom}>
+        <ReactNativeZoomableView
+         zoomEnabled={true} // I added this; no difference
+         maxZoom={2.5}
+         minZoom={0.5}
+         zoomStep={0.5}
+         initialZoom={1}
+         bindToBorders={true}
+        >
+          <Image
+            source={
+              item.imageLink
+            }
+            style={styles.plantimage}
+            resizeMode= 'contain' // enum('DEFAULTcover', 'BESTcontain', 'NOstretch', 'NOrepeat', 'GOODcenter')
+          />
+        </ReactNativeZoomableView>
+      </View>
     </View>
   );
 }
@@ -36,23 +39,27 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     padding: 10,
   },
-  containerphotos: {
+  /*containerphotos: {
     flex: 1,
     flexDirection: "row",
     justifyContent: 'center',
-  },
-  flatlistfltr: {
+  },*/
+  /*flatlistfltr: {
     flex: 1,
     flexDirection: 'row',
-  },
+  },*/
   plantimage: {
-    width: 350, //400, //500, //'100%',
-    height: 275,
-    marginHorizontal: 6,
-    padding: 5
+    flex: 1,
+    width: null,
+    height: '100%'
+    //width: 350, //400, //500, //'100%',
+    //height: 275,
+    //marginHorizontal: 6,
+    //padding: 5
   },
   plantimageZoom: {
     flex: 1,
+    //overflow: 'hidden' // I added this; no difference
   },
 });
 

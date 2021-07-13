@@ -92,7 +92,7 @@ export default class Home extends Component {
 
         <View style={styles.copyright}>
           <Text style={styles.copyrighttext}>© {i18n.t('homebutton.4')} 2021</Text>
-          <Text style={styles.copyrighttext}>v: 6 {i18n.t('floweringin.6').substring(0,3) } a</Text>
+          <Text style={styles.copyrighttext}>v: 13 {i18n.t('floweringin.6').substring(0,3) } a</Text>
           <TouchableOpacity
             style={styles.button}
             onPress={ ()=>{ Linking.openURL('https://www.primordion.com/Xholon/gwt/ShirkingPixies.html')}}
