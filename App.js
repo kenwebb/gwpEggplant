@@ -10,6 +10,7 @@ import QueryScreen from './components/QueryComponent'
 import FlowersScreen from './components/FlowersComponent'
 import FlowerDetailsScreen from './components/FlowerDetailsComponent'
 import PhotoDetailsScreen from './components/PhotoDetailsComponent'
+import PhotoZoomPanScreen from './components/PhotoZoomPanComponent'
 
 import AboutScreen from './components/AboutComponent'
 import ContactScreen from './components/ContactComponent'
@@ -101,6 +102,7 @@ const App = (props) => {
           <Stack.Screen name="Flowers" component={FlowersScreen} options={{ title: i18n.t('screen.2') }} />
           <Stack.Screen name="FlowerDetails" component={FlowerDetailsScreen} options={{ title: i18n.t('screen.3') }} />
           <Stack.Screen name="PhotoDetails" component={PhotoDetailsScreen} />
+          <Stack.Screen name="PhotoZoomPan" component={PhotoZoomPanScreen} />
           <Stack.Screen name="About" component={AboutScreen} options={{ title: i18n.t('screen.4') }} />
           <Stack.Screen name="Contact" component={ContactScreen} options={{ title: i18n.t('screen.5') }} />
           <Stack.Screen name="Links" component={LinksScreen} options={{ title: i18n.t('screen.6') }} />

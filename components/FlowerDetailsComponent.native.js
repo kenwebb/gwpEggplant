@@ -7,6 +7,8 @@ import PhotoDetails from './PhotoDetailsComponent'
 import i18n from 'i18n-js';
 
 const FlowerDetails = (props) => {
+  console.log("FlowerDetails props:");
+  console.log(props); // navigation route.params.plant
 
   const Plant = props.route.params.plant; // the entire JSON for one plant
   //console.log(Plant);
@@ -59,7 +61,7 @@ const FlowerDetails = (props) => {
   return (
     <View style={styles.container}>
 
-      <PhotoDetails photos={props.route.params.plant.photos} />
+      <PhotoDetails photos={props.route.params.plant.photos} navigation={props.navigation} />
 
       <View style={styles.containerlabel}>
         <Text style={cstyles.imagelabel}>{Plant.species}</Text>

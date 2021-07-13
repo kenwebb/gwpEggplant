@@ -3,6 +3,8 @@ import { StyleSheet, View, Text, Image, FlatList, ScrollView } from 'react-nativ
 import {cstyles} from '../styles/styles';
 import ReactNativeZoomableView from '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView';
 
+// @deprecated  use .web or .native  and PhotoZoomPan.js
+
 const PhotoDetails = (props) => {
 
   return (
